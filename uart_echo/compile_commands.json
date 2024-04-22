@@ -1,0 +1,54 @@
+[
+ {
+  "directory": "/home/omar/programming/thirdparties/tiva-c/boards/ek-tm4c123gxl/uart_echo",
+  "arguments": [
+   "arm-none-eabi-gcc",
+   "-mthumb",
+   "-mcpu=cortex-m4",
+   "-mfpu=fpv4-sp-d16",
+   "-mfloat-abi=softfp",
+   "-ffunction-sections",
+   "-fdata-sections",
+   "-MD",
+   "-std=c99",
+   "-Wall",
+   "-pedantic",
+   "-DPART_TM4C123GH6PM",
+   "-c",
+   "-Os",
+   "-DTARGET_IS_TM4C123_RB1",
+   "-I../../..",
+   "-Dgcc",
+   "-o",
+   "gcc/startup_gcc.o",
+   "startup_gcc.c"
+  ],
+  "file": "startup_gcc.c"
+ },
+ {
+  "directory": "/home/omar/programming/thirdparties/tiva-c/boards/ek-tm4c123gxl/uart_echo",
+  "arguments": [
+   "arm-none-eabi-gcc",
+   "-mthumb",
+   "-mcpu=cortex-m4",
+   "-mfpu=fpv4-sp-d16",
+   "-mfloat-abi=softfp",
+   "-ffunction-sections",
+   "-fdata-sections",
+   "-MD",
+   "-std=c99",
+   "-Wall",
+   "-pedantic",
+   "-DPART_TM4C123GH6PM",
+   "-c",
+   "-Os",
+   "-DTARGET_IS_TM4C123_RB1",
+   "-I../../..",
+   "-Dgcc",
+   "-o",
+   "gcc/uart_echo.o",
+   "uart_echo.c"
+  ],
+  "file": "uart_echo.c"
+ }
+]
